@@ -1,0 +1,12 @@
+---
+name: redis
+
+templates:
+  ctl.erb: bin/ctl
+
+packages: []
+
+properties: 
+  port:
+    description: app listen port
+    default: 80

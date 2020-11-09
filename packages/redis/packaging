@@ -1,0 +1,6 @@
+set -e
+
+pushd src/redis
+  make
+  make PREFIX=${BOSH_INSTALL_TARGET} install
+popd

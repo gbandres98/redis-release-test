@@ -1,0 +1,16 @@
+name: redis-test
+version: 0+dev.1
+commit_hash: empty
+uncommitted_changes: true
+jobs:
+- name: redis
+  version: 86439017369aa7f2a694aec2f520d1ac808126a98c2a0aed3ea85bddcd86f2bd
+  fingerprint: 86439017369aa7f2a694aec2f520d1ac808126a98c2a0aed3ea85bddcd86f2bd
+  sha1: sha256:fe3c1fa35734724fc981a5335799a622655dd3d0a10269c963202ff94614498a
+  packages: []
+packages:
+- name: redis
+  version: 9734883f6d5d6a1dfb88b3aac79366081eb38191615967f0bf957989365f8ac8
+  fingerprint: 9734883f6d5d6a1dfb88b3aac79366081eb38191615967f0bf957989365f8ac8
+  sha1: sha256:166f50e20008ab17776daf0fe51212ef6b65f637c385a90c184feb2ab1e07034
+  dependencies: []
